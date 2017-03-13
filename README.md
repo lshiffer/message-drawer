@@ -2,7 +2,7 @@
 Enhancement for Mixmax to include drawn messages.
 
 ### About
-Adds an Enhancement to Mixmax allowing the User to draw a message to be included in his/her email. 
+Adds an Enhancement to Mixmax allowing the User to draw a message to be included in his/her email.  Developed with vanilla JS and EaselJS with Node on the back running Express. 
 
 /  
 * server.js  
@@ -21,7 +21,7 @@ enhancement/
   
 api/  
 * canvasResolver.js  
-  Receives the user drawing and returns an HTML snippet for email insertion. 
+  Receives the User drawing and returns an HTML snippet for email insertion. 
 	
 	
 ### Set Up Locally  
