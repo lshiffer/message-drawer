@@ -1,7 +1,7 @@
-# message-drawer
+## message-drawer
 Enhancement for Mixmax to include drawn messages.
 
-# About
+### About
 Adds an Enhancement to Mixmax allowing the User to draw a message to be included in an email. 
 
 /  
@@ -24,7 +24,7 @@ api/
   Receives the user drawing and returns an HTML snippet for email insertion. 
 	
 	
-# Set Up Locally  
+### Set Up Locally  
 1.  Install using `npm install`  
 2.  Run using `npm start`  
 
@@ -42,7 +42,7 @@ Settings > Integrations & API
 
 Other settings can be left to their default value (height: 600, width: 680). 
 
-# ToDo
+### ToDo
 *  Edit Support  
 	-  Parse the query string included in the URL when User clicks 'Edit' to get the base64 image to re-insert into canvas.  
 	-  Currently a blank canvas is shown when User edits a pre-existing canvas attachment. 
