@@ -4,6 +4,8 @@ Enhancement for Mixmax to include drawn messages.
 ### About
 Adds an Enhancement to Mixmax allowing the User to draw a message to be included in his/her email.  Developed with vanilla JS and EaselJS with Node on the back running Express.  
 
+To Use as an Enhancement, find 'Drawer' in Enhancement when composing an Email.  Draw on the canvas and click "Attach" when finished.  To clear the canvas, click "Clear".
+
 A User can edit his/her drawing by clicking on 'Edit' once the drawing is within the email.  New doodles can be added to the drawing and will be saved when the User clicks 'Attach'.  Clicking 'Clear' will <i>only</i> clear the new doodles on the drawing, the original drawing will remain.  'Clear' when not editing a drawing will clear the entire canvas. 
 
 /  
