@@ -28,7 +28,7 @@ api/
 1.  Install using `npm install`  
 2.  Run using `npm start`  
 
-To test the editor locally, go to <https://localhost:8910/editor> in your browser.  
+To test the editor locally, go to <https://localhost:8910/canvas> in your browser.  
 
 To include the functionality in your Mixmax app:  
 
