@@ -2,7 +2,9 @@
 Enhancement for Mixmax to include drawn messages.
 
 ### About
-Adds an Enhancement to Mixmax allowing the User to draw a message to be included in his/her email.  Developed with vanilla JS and EaselJS with Node on the back running Express. 
+Adds an Enhancement to Mixmax allowing the User to draw a message to be included in his/her email.  Developed with vanilla JS and EaselJS with Node on the back running Express.  
+
+A User can edit his/her drawing by clicking on 'Edit' once the drawing is within the email.  New doodles can be added to the drawing and will be saved when the User clicks 'Attach'.  Clicking 'Clear' will <i>only</i> clear the new doodles on the drawing, the original drawing will remain.  'Clear' when not editing a drawing will clear the entire canvas. 
 
 /  
 * server.js  
@@ -45,9 +47,6 @@ Other settings can be left to their default value (height: 600, width: 680).
 For further information please visit: <http://developer.mixmax.com/docs/overview-enhancement#tutorial-building-giphy-enhancement>
 
 ### ToDo
-*  Edit Support  
-	-  Parse the query string included in the URL when User clicks 'Edit' to get the base64 image to re-insert into canvas.  
-	-  Currently a blank canvas is shown when User edits a pre-existing canvas attachment. 
 *  Additional Features
 	-  Provide a pallete for User to choose different colors.  
 	-  Adjust the pen size.
