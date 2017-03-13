@@ -2,7 +2,7 @@
 Enhancement for Mixmax to include drawn messages.
 
 ### About
-Adds an Enhancement to Mixmax allowing the User to draw a message to be included in an email. 
+Adds an Enhancement to Mixmax allowing the User to draw a message to be included in his/her email. 
 
 /  
 * server.js  
@@ -41,6 +41,8 @@ Settings > Integrations & API
 	`Resolver API URL`:  https://localhost:8910/api/canvas/  
 
 Other settings can be left to their default value (height: 600, width: 680). 
+
+For further information please visit: <http://developer.mixmax.com/docs/overview-enhancement#tutorial-building-giphy-enhancement>
 
 ### ToDo
 *  Edit Support  
