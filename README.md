@@ -47,6 +47,8 @@ Other settings can be left to their default value (height: 600, width: 680).
 For further information please visit: <http://developer.mixmax.com/docs/overview-enhancement#tutorial-building-giphy-enhancement>
 
 ### ToDo
+*  Close Button  
+	-  Implement 'Close' button calling Mixmax.cancel() for Mobile use.  
 *  Additional Features
 	-  Provide a pallete for User to choose different colors.  
 	-  Adjust the pen size.
