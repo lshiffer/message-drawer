@@ -1,4 +1,4 @@
-## message-drawer
+## Message Drawer | A Mixmax Enhancement
 Enhancement for Mixmax to include drawn messages.
 
 ### About
