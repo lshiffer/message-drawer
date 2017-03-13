@@ -1,0 +1,28 @@
+#canvasDrawer {
+	width: 100%;
+	height: 500px;
+	background-color: #ffffff;
+	border: 2px inset #bbbbbb;
+	box-sizing: border-box;
+
+	cursor: url('penCursor.cur'), default;
+}
+
+#controlPanel {
+	margin-top: 5px;
+	padding: 5px;
+}
+
+#clear {
+	float: left;
+}
+
+#send {
+	float: right;
+}
+
+.button {
+	border: 2px outset black;
+	padding: 5px;
+	cursor: pointer;
+}

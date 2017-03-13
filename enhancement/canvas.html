@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title> MixMax Drawer </title>
+
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+        <link rel="stylesheet" type="text/css" href="canvas.css" />
+        <script src="canvas.js"></script>
+        <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+        <script defer src="https://d1xa36cy0xt122.cloudfront.net/v1/Mixmax.js"></script>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+              init();
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <canvas id="canvasDrawer"></canvas>
+        <div id="controlPanel">
+            <div id="clear" class="button"> Clear </div>
+            <div id="send" class="button"> Attach </div>
+        </div>
+    </body>
+
+</html>
