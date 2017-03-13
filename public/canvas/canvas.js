@@ -1,10 +1,29 @@
 
-var stage, oldX, oldY, color, size, shape, drawing;
+var stage, oldX, oldY, color, size, shape, drawing, previousImage;
 
 function init() {
+	checkForEdit();
 	createCanvas();
 	setVariables();
 	setEvents();
+}
+
+function checkForEdit() {
+	previousImage = JSON.parse(getParameterByName('data'));
+	if (previousImage)
+		previousImage = previousImage.src;
+}
+
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
 function createCanvas() {
@@ -13,8 +32,21 @@ function createCanvas() {
 	shape = new createjs.Shape();
 	stage.addChild(shape);
 
+	if (previousImage) {
+		var image = new Image();
+	    image.src = previousImage;
+	    image.onload = attachImageToCanvas;
+	}
+
 	stage.canvas.width = window.innerWidth;
 	stage.canvas.height = window.innerHeight;
+}
+
+function attachImageToCanvas(event) {
+    var image = event.target;
+    var bitmap = new createjs.Bitmap(image);
+    stage.addChild(bitmap);
+    stage.update();
 }
 
 function setVariables() {
